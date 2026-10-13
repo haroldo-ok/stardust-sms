@@ -1,0 +1,803 @@
+{
+  "date": "2026-10-12",
+  "rom": "Stardust_SMS.sms",
+  "sha256": "bd5226d5cd84059659917781d853cdbd9af527dac9d519470f3a97dfac33c533",
+  "rom_bytes": 524288,
+  "physical_hardware_tested": false,
+  "cores": [
+    "Genesis Plus GX",
+    "Gearsystem"
+  ],
+  "tests": [
+    {
+      "test": "cartridge fits 4 MiB allowance",
+      "passed": true,
+      "detail": 524288
+    },
+    {
+      "test": "Sega Export / 512 KiB header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Sega checksum",
+      "passed": true,
+      "detail": "0xd7ee"
+    },
+    {
+      "test": "Z80 boot / IM-1 / pause vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mapped bank 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "6-bit CRAM 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "VRAM tile budget 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "music banks 20..23",
+      "passed": true,
+      "detail": 65536
+    },
+    {
+      "test": "work-RAM starts at $C000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "title plays the Amiga title theme",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "sector plays the world-1 in-game theme",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "NTSC region detected for music tempo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "controller starts campaign sector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "actual enemies initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "gun token collected with controller input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "weapons damage rocks and enemies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Z80 game loop advances at playable cadence",
+      "passed": true,
+      "detail": 549
+    },
+    {
+      "test": "SAT terminator and sprite cap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "pattern/SAT transfers start inside VBlank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "pattern/SAT transfers finish before active display",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "video submitted smoke",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "native 256x192 smoke",
+      "passed": true,
+      "detail": "frame_000300.ppm"
+    },
+    {
+      "test": "hardware palette limit smoke",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "test": "nonblank Mode-4 image smoke",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "SMS1/SMS2 SAT and sprite-generator address masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "hardware SAT X/pattern table is distinct from Y table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "PSG audio format",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "audible music and effects",
+      "passed": true,
+      "detail": {
+        "peak": 3965,
+        "rms": 786.3931371219202
+      }
+    },
+    {
+      "test": "PAL 50 Hz VDP and interrupts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "PAL gameplay loop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "PAL region detected for music tempo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "video submitted pal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "native 256x192 pal",
+      "passed": true,
+      "detail": "frame_000600.ppm"
+    },
+    {
+      "test": "hardware palette limit pal",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "test": "nonblank Mode-4 image pal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "independent Gearsystem Z80 execution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "independent Gearsystem gameplay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "video submitted gearsystem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "native 256x192 gearsystem",
+      "passed": true,
+      "detail": "frame_000600.ppm"
+    },
+    {
+      "test": "hardware palette limit gearsystem",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "test": "nonblank Mode-4 image gearsystem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DOWN + 2 weapon 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DOWN + 2 weapon 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DOWN + 2 weapon 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DOWN + 2 weapon 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "boosted projectiles preserve forward direction",
+      "passed": true,
+      "detail": [
+        120,
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "test": "console pause freezes gameplay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "interrupts remain live while paused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "console pause resumes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "token G",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "token heart",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "test": "token S",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "test": "token *",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "token P",
+      "passed": true,
+      "detail": 870
+    },
+    {
+      "test": "token E",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "token B",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "test": "token X",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "test": "token F",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "test": "valid campaign code restores world and sectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "code restores loadout and lives",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "invalid code rejected safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "lethal collision reaches game-over",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "pending respawn survives level transition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "input-only boss_practice reaches ending",
+      "passed": true,
+      "detail": {
+        "game_mode": 8,
+        "world": 5,
+        "practice": 1,
+        "arena_mask": 0,
+        "health": 100,
+        "shield": 100,
+        "lives": 3,
+        "gun": 3,
+        "bombs": 6,
+        "weapon": 2,
+        "improved": 1,
+        "mission_fuel": 0,
+        "boss_hp": 0,
+        "boss_stage": 1,
+        "score": 29970,
+        "stage_ticks": 5953,
+        "logic_frames": 9676,
+        "vblank_counter": 19900
+      }
+    },
+    {
+      "test": "final professor defeated boss_practice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "soundtrack follows the game state boss_practice",
+      "passed": true,
+      "detail": {
+        "samples": 292,
+        "mismatches": []
+      }
+    },
+    {
+      "test": "all four guardian themes heard",
+      "passed": true,
+      "detail": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "test": "all five distinct guardian encounters boss_practice",
+      "passed": true,
+      "detail": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "test": "video submitted boss_practice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "native 256x192 boss_practice",
+      "passed": true,
+      "detail": "frame_001200.ppm"
+    },
+    {
+      "test": "hardware palette limit boss_practice",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "test": "nonblank Mode-4 image boss_practice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "input-only campaign reaches ending",
+      "passed": true,
+      "detail": {
+        "game_mode": 8,
+        "world": 5,
+        "practice": 0,
+        "arena_mask": 0,
+        "health": 58,
+        "shield": 100,
+        "lives": 4,
+        "gun": 1,
+        "bombs": 5,
+        "weapon": 2,
+        "improved": 1,
+        "mission_fuel": 9,
+        "boss_hp": 0,
+        "boss_stage": 1,
+        "score": 94170,
+        "stage_ticks": 27360,
+        "logic_frames": 44703,
+        "vblank_counter": 34364
+      }
+    },
+    {
+      "test": "final professor defeated campaign",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "soundtrack follows the game state campaign",
+      "passed": true,
+      "detail": {
+        "samples": 1526,
+        "mismatches": []
+      }
+    },
+    {
+      "test": "every soundtrack piece heard in the campaign",
+      "passed": true,
+      "detail": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "test": "all five distinct guardian encounters campaign",
+      "passed": true,
+      "detail": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "test": "full campaign, not practice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "both gravity bonus missions",
+      "passed": true,
+      "detail": [
+        2,
+        4
+      ]
+    },
+    {
+      "test": "all four inter-world warp tunnels",
+      "passed": true,
+      "detail": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "test": "four sectors cleared in world 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "four sectors cleared in world 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "four sectors cleared in world 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "four sectors cleared in world 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "four sectors cleared in world 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "progression and power-up persistence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "video submitted campaign",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "native 256x192 campaign",
+      "passed": true,
+      "detail": "frame_001200.ppm"
+    },
+    {
+      "test": "hardware palette limit campaign",
+      "passed": true,
+      "detail": 14
+    },
+    {
+      "test": "nonblank Mode-4 image campaign",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "assertions_passed": 139,
+  "notes": "Campaign and guardian practice completed with controller-only pilots; targeted edge cases use documented emulator-side RAM fixtures."
+}

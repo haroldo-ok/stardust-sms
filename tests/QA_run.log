@@ -1,0 +1,144 @@
+PASS: cartridge fits 4 MiB allowance 524288
+PASS: Sega Export / 512 KiB header 
+PASS: Sega checksum 0xd7ee
+PASS: Z80 boot / IM-1 / pause vectors 
+PASS: mapped bank 2 
+PASS: 6-bit CRAM 2 
+PASS: VRAM tile budget 2 
+PASS: mapped bank 3 
+PASS: 6-bit CRAM 3 
+PASS: VRAM tile budget 3 
+PASS: mapped bank 4 
+PASS: 6-bit CRAM 4 
+PASS: VRAM tile budget 4 
+PASS: mapped bank 5 
+PASS: 6-bit CRAM 5 
+PASS: VRAM tile budget 5 
+PASS: mapped bank 6 
+PASS: 6-bit CRAM 6 
+PASS: VRAM tile budget 6 
+PASS: mapped bank 7 
+PASS: 6-bit CRAM 7 
+PASS: VRAM tile budget 7 
+PASS: mapped bank 8 
+PASS: 6-bit CRAM 8 
+PASS: VRAM tile budget 8 
+PASS: mapped bank 9 
+PASS: 6-bit CRAM 9 
+PASS: VRAM tile budget 9 
+PASS: mapped bank 10 
+PASS: 6-bit CRAM 10 
+PASS: VRAM tile budget 10 
+PASS: mapped bank 11 
+PASS: 6-bit CRAM 11 
+PASS: VRAM tile budget 11 
+PASS: mapped bank 12 
+PASS: 6-bit CRAM 12 
+PASS: VRAM tile budget 12 
+PASS: mapped bank 13 
+PASS: 6-bit CRAM 13 
+PASS: VRAM tile budget 13 
+PASS: mapped bank 14 
+PASS: 6-bit CRAM 14 
+PASS: VRAM tile budget 14 
+PASS: mapped bank 15 
+PASS: 6-bit CRAM 15 
+PASS: VRAM tile budget 15 
+PASS: mapped bank 16 
+PASS: 6-bit CRAM 16 
+PASS: VRAM tile budget 16 
+PASS: mapped bank 17 
+PASS: mapped bank 18 
+PASS: 6-bit CRAM 18 
+PASS: VRAM tile budget 18 
+PASS: mapped bank 19 
+PASS: 6-bit CRAM 19 
+PASS: VRAM tile budget 19 
+PASS: music banks 20..23 65536
+PASS: work-RAM starts at $C000 
+/home/claude/sms/Stardust_SMS/tools/smsrun.c: In function ‘main’:
+/home/claude/sms/Stardust_SMS/tools/smsrun.c:230:137: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  230 |     FILE*r=fopen(argv[2],"rb");if(!r){perror(argv[2]);return 1;}fseek(r,0,SEEK_END);long size=ftell(r);rewind(r);void*data=malloc(size);fread(data,1,size,r);fclose(r);
+      |                                                                                                                                         ^~~~~~~~~~~~~~~~~~~~
+PASS: title plays the Amiga title theme 
+PASS: sector plays the world-1 in-game theme 
+PASS: NTSC region detected for music tempo 
+PASS: controller starts campaign sector 
+PASS: actual enemies initialized 
+PASS: gun token collected with controller input 
+PASS: weapons damage rocks and enemies 
+PASS: Z80 game loop advances at playable cadence 549
+PASS: SAT terminator and sprite cap 
+PASS: pattern/SAT transfers start inside VBlank 
+PASS: pattern/SAT transfers finish before active display 
+PASS: video submitted smoke 
+PASS: native 256x192 smoke frame_000300.ppm
+PASS: hardware palette limit smoke 15
+PASS: nonblank Mode-4 image smoke 
+PASS: SMS1/SMS2 SAT and sprite-generator address masks 
+PASS: hardware SAT X/pattern table is distinct from Y table 
+PASS: PSG audio format 
+PASS: audible music and effects {'peak': 3965, 'rms': 786.3931371219202}
+PASS: PAL 50 Hz VDP and interrupts 
+PASS: PAL gameplay loop 
+PASS: PAL region detected for music tempo 
+PASS: video submitted pal 
+PASS: native 256x192 pal frame_000600.ppm
+PASS: hardware palette limit pal 16
+PASS: nonblank Mode-4 image pal 
+PASS: independent Gearsystem Z80 execution 
+PASS: independent Gearsystem gameplay 
+PASS: video submitted gearsystem 
+PASS: native 256x192 gearsystem frame_000600.ppm
+PASS: hardware palette limit gearsystem 16
+PASS: nonblank Mode-4 image gearsystem 
+PASS: DOWN + 2 weapon 1 
+PASS: DOWN + 2 weapon 2 
+PASS: DOWN + 2 weapon 3 
+PASS: DOWN + 2 weapon 0 
+PASS: boosted projectiles preserve forward direction [120, 120, 120, 120]
+PASS: console pause freezes gameplay 
+PASS: interrupts remain live while paused 
+PASS: console pause resumes 
+PASS: token G 1
+PASS: token heart 100
+PASS: token S 100
+PASS: token * 1
+PASS: token P 870
+PASS: token E 1
+PASS: token B 3
+PASS: token X 4
+PASS: token F 100
+PASS: valid campaign code restores world and sectors 
+PASS: code restores loadout and lives 
+PASS: invalid code rejected safely 
+PASS: lethal collision reaches game-over 
+PASS: pending respawn survives level transition 
+PASS: input-only boss_practice reaches ending {'game_mode': 8, 'world': 5, 'practice': 1, 'arena_mask': 0, 'health': 100, 'shield': 100, 'lives': 3, 'gun': 3, 'bombs': 6, 'weapon': 2, 'improved': 1, 'mission_fuel': 0, 'boss_hp': 0, 'boss_stage': 1, 'score': 29970, 'stage_ticks': 5953, 'logic_frames': 9676, 'vblank_counter': 19900}
+PASS: final professor defeated boss_practice 
+PASS: soundtrack follows the game state boss_practice {'samples': 292, 'mismatches': []}
+PASS: all four guardian themes heard [0, 1, 7, 8, 9, 10]
+PASS: all five distinct guardian encounters boss_practice [0, 1, 2, 3, 4]
+PASS: video submitted boss_practice 
+PASS: native 256x192 boss_practice frame_001200.ppm
+PASS: hardware palette limit boss_practice 16
+PASS: nonblank Mode-4 image boss_practice 
+PASS: input-only campaign reaches ending {'game_mode': 8, 'world': 5, 'practice': 0, 'arena_mask': 0, 'health': 58, 'shield': 100, 'lives': 4, 'gun': 1, 'bombs': 5, 'weapon': 2, 'improved': 1, 'mission_fuel': 9, 'boss_hp': 0, 'boss_stage': 1, 'score': 94170, 'stage_ticks': 27360, 'logic_frames': 44703, 'vblank_counter': 34364}
+PASS: final professor defeated campaign 
+PASS: soundtrack follows the game state campaign {'samples': 1526, 'mismatches': []}
+PASS: every soundtrack piece heard in the campaign [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+PASS: all five distinct guardian encounters campaign [0, 1, 2, 3, 4]
+PASS: full campaign, not practice 
+PASS: both gravity bonus missions [2, 4]
+PASS: all four inter-world warp tunnels [1, 2, 3, 4]
+PASS: four sectors cleared in world 1 
+PASS: four sectors cleared in world 2 
+PASS: four sectors cleared in world 3 
+PASS: four sectors cleared in world 4 
+PASS: four sectors cleared in world 5 
+PASS: progression and power-up persistence 
+PASS: video submitted campaign 
+PASS: native 256x192 campaign frame_001200.ppm
+PASS: hardware palette limit campaign 14
+PASS: nonblank Mode-4 image campaign 
+ALL 139 ASSERTIONS PASSED. SHA256 bd5226d5cd84059659917781d853cdbd9af527dac9d519470f3a97dfac33c533

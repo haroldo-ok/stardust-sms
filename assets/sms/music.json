@@ -1,0 +1,111 @@
+{
+  "first_bank": 20,
+  "banks": 4,
+  "used_bytes": 61621,
+  "tracks": [
+    {
+      "track": "MUS_MENU",
+      "source": "original SMS menu tune",
+      "seconds": 8.5,
+      "loop_at_seconds": 0.0,
+      "raw_bytes": 207,
+      "packed_bytes": 176
+    },
+    {
+      "track": "MUS_TITLE",
+      "source": "p4x.engage the scy!!!xx",
+      "seconds": 28.8,
+      "loop_at_seconds": 9.6,
+      "raw_bytes": 4707,
+      "packed_bytes": 2320
+    },
+    {
+      "track": "MUS_WORLD1",
+      "source": "p4x.sd-ingame1",
+      "seconds": 59.2,
+      "loop_at_seconds": 8.0,
+      "raw_bytes": 6725,
+      "packed_bytes": 3203
+    },
+    {
+      "track": "MUS_WORLD2",
+      "source": "p4x.level2ingame",
+      "seconds": 66.2,
+      "loop_at_seconds": 0.0,
+      "raw_bytes": 9376,
+      "packed_bytes": 5225
+    },
+    {
+      "track": "MUS_WORLD3",
+      "source": "p4x.level3ingame",
+      "seconds": 96.0,
+      "loop_at_seconds": 89.6,
+      "raw_bytes": 9943,
+      "packed_bytes": 5392
+    },
+    {
+      "track": "MUS_WORLD4",
+      "source": "p4x.sd-ingametry2",
+      "seconds": 70.4,
+      "loop_at_seconds": 0.0,
+      "raw_bytes": 10125,
+      "packed_bytes": 4294
+    },
+    {
+      "track": "MUS_WORLD5",
+      "source": "p4x.level5ingame",
+      "seconds": 64.0,
+      "loop_at_seconds": 51.2,
+      "raw_bytes": 8079,
+      "packed_bytes": 4225
+    },
+    {
+      "track": "MUS_BOSS",
+      "source": "p4x.sd-boss to try2",
+      "seconds": 57.6,
+      "loop_at_seconds": 23.0,
+      "raw_bytes": 8191,
+      "packed_bytes": 4105
+    },
+    {
+      "track": "MUS_BOSS3",
+      "source": "p4x.level3boss",
+      "seconds": 60.5,
+      "loop_at_seconds": 15.7,
+      "raw_bytes": 7739,
+      "packed_bytes": 3473
+    },
+    {
+      "track": "MUS_BOSS5",
+      "source": "p4x.level5boss",
+      "seconds": 76.8,
+      "loop_at_seconds": 25.6,
+      "raw_bytes": 9049,
+      "packed_bytes": 3752
+    },
+    {
+      "track": "MUS_FINAL",
+      "source": "p4x.sd-hardcore.finboss",
+      "seconds": 68.7,
+      "loop_at_seconds": 62.3,
+      "raw_bytes": 9592,
+      "packed_bytes": 3811
+    },
+    {
+      "track": "MUS_TUNNEL_A",
+      "source": "p4x.sd-umpitunneli hc",
+      "seconds": 138.2,
+      "loop_at_seconds": 0.0,
+      "raw_bytes": 22928,
+      "packed_bytes": 10864
+    },
+    {
+      "track": "MUS_TUNNEL_B",
+      "source": "p4x.tunnel4",
+      "seconds": 108.4,
+      "loop_at_seconds": 0.0,
+      "raw_bytes": 15820,
+      "packed_bytes": 10781
+    }
+  ]
+}

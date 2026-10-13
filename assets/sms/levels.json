@@ -1,0 +1,242 @@
+[
+  {
+    "world": 1,
+    "sector": 1,
+    "initial_big_rocks": 2,
+    "initial_enemies": 2,
+    "armour_tier": 0,
+    "time_seconds": 150,
+    "enemies": [
+      "drone",
+      "trilon"
+    ]
+  },
+  {
+    "world": 1,
+    "sector": 2,
+    "initial_big_rocks": 2,
+    "initial_enemies": 2,
+    "armour_tier": 0,
+    "time_seconds": 150,
+    "enemies": [
+      "drone",
+      "trilon"
+    ]
+  },
+  {
+    "world": 1,
+    "sector": 3,
+    "initial_big_rocks": 3,
+    "initial_enemies": 2,
+    "armour_tier": 1,
+    "time_seconds": 150,
+    "enemies": [
+      "drone",
+      "trilon"
+    ]
+  },
+  {
+    "world": 1,
+    "sector": 4,
+    "initial_big_rocks": 3,
+    "initial_enemies": 2,
+    "armour_tier": 1,
+    "time_seconds": 150,
+    "enemies": [
+      "drone",
+      "trilon"
+    ]
+  },
+  {
+    "world": 2,
+    "sector": 1,
+    "initial_big_rocks": 2,
+    "initial_enemies": 3,
+    "armour_tier": 0,
+    "time_seconds": 170,
+    "enemies": [
+      "blade",
+      "bomber"
+    ]
+  },
+  {
+    "world": 2,
+    "sector": 2,
+    "initial_big_rocks": 2,
+    "initial_enemies": 3,
+    "armour_tier": 0,
+    "time_seconds": 170,
+    "enemies": [
+      "blade",
+      "bomber"
+    ]
+  },
+  {
+    "world": 2,
+    "sector": 3,
+    "initial_big_rocks": 3,
+    "initial_enemies": 3,
+    "armour_tier": 1,
+    "time_seconds": 170,
+    "enemies": [
+      "blade",
+      "bomber"
+    ]
+  },
+  {
+    "world": 2,
+    "sector": 4,
+    "initial_big_rocks": 3,
+    "initial_enemies": 3,
+    "armour_tier": 1,
+    "time_seconds": 170,
+    "enemies": [
+      "blade",
+      "bomber"
+    ]
+  },
+  {
+    "world": 3,
+    "sector": 1,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 1,
+    "time_seconds": 190,
+    "enemies": [
+      "thorn",
+      "plate"
+    ]
+  },
+  {
+    "world": 3,
+    "sector": 2,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 1,
+    "time_seconds": 190,
+    "enemies": [
+      "thorn",
+      "plate"
+    ]
+  },
+  {
+    "world": 3,
+    "sector": 3,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 190,
+    "enemies": [
+      "thorn",
+      "plate"
+    ]
+  },
+  {
+    "world": 3,
+    "sector": 4,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 190,
+    "enemies": [
+      "thorn",
+      "plate"
+    ]
+  },
+  {
+    "world": 4,
+    "sector": 1,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 1,
+    "time_seconds": 210,
+    "enemies": [
+      "speeder",
+      "drone"
+    ]
+  },
+  {
+    "world": 4,
+    "sector": 2,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 1,
+    "time_seconds": 210,
+    "enemies": [
+      "speeder",
+      "drone"
+    ]
+  },
+  {
+    "world": 4,
+    "sector": 3,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 210,
+    "enemies": [
+      "speeder",
+      "drone"
+    ]
+  },
+  {
+    "world": 4,
+    "sector": 4,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 210,
+    "enemies": [
+      "speeder",
+      "drone"
+    ]
+  },
+  {
+    "world": 5,
+    "sector": 1,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 230,
+    "enemies": [
+      "plate",
+      "bomber"
+    ]
+  },
+  {
+    "world": 5,
+    "sector": 2,
+    "initial_big_rocks": 2,
+    "initial_enemies": 4,
+    "armour_tier": 2,
+    "time_seconds": 230,
+    "enemies": [
+      "plate",
+      "bomber"
+    ]
+  },
+  {
+    "world": 5,
+    "sector": 3,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 3,
+    "time_seconds": 230,
+    "enemies": [
+      "plate",
+      "bomber"
+    ]
+  },
+  {
+    "world": 5,
+    "sector": 4,
+    "initial_big_rocks": 3,
+    "initial_enemies": 4,
+    "armour_tier": 3,
+    "time_seconds": 230,
+    "enemies": [
+      "plate",
+      "bomber"
+    ]
+  }
+]

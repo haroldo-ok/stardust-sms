@@ -1,0 +1,11 @@
+{
+  "rom_bytes": 524288,
+  "fixed_code_bytes": 23026,
+  "sha256": "bd5226d5cd84059659917781d853cdbd9af527dac9d519470f3a97dfac33c533",
+  "sega_checksum": 55278,
+  "mapper": "Sega",
+  "region": "SMS Export (4)",
+  "resource_banks": 18,
+  "music_banks": 4,
+  "max_cartridge_bytes": 4194304
+}

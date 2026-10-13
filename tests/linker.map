@@ -1,0 +1,320 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           divsigned
+     00000000  l__BSEG                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__HOME                         
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000000  s__HEADER1                      
+     00000000  s__HEADER2                      
+     00000000  s__HEADER3                      
+     00000001  l__GSFINAL                      
+     00000002  l__INITIALIZED                  
+     00000002  l__INITIALIZER                  
+     00000003  l__HEADER0                      
+     00000003  l__HEADER1                      
+     00000009  l__HEADER2                      
+     00000025  l__GSINIT                       
+     0000004D  l__HEADER3                      
+     00000200  s__CODE                         
+     00000550  l__DATA                         
+     000057CA  l__CODE                         
+     000059CA  s__HOME                         
+     000059CA  s__INITIALIZER                  
+     000059CC  s__GSINIT                       
+     000059F1  s__GSFINAL                      
+     0000C000  s__DATA                         
+     0000C550  s__INITIALIZED                  
+     0000C552  s__BSEG                         
+     0000C552  s__BSS                          
+     0000C552  s__HEAP                         
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    000057CA =       22474. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000200  _vdp_copy                          vdp
+     00000286  _meta                              vdp
+     00000339  _encode_line                       vdp
+     00000383  _music_irq                         music
+     00000536  _joy_read                          platform
+     0000053C  _vdp_reg                           platform
+     0000056C  _display_on                        platform
+     00000573  _hw_init                           platform
+     0000059E  _scene_load                        platform
+     00000612  _sprites_begin                     platform
+     00000617  _sprite                            platform
+     00000671  _sprites_flush                     platform
+     000006A3  _sound_mute                        platform
+     000006B4  _sound_start                       platform
+     00000712  _sfx_tick                          platform
+     00000855  _music_play                        platform
+     0000094D  _music_pause                       platform
+     00005773  _main                              game
+     0000592B  __divuchar                         divunsigned
+     0000592D  __divu8                            divunsigned
+     00005930  __divu16                           divunsigned
+     00005930  __divuint                          divunsigned
+     0000595F  __moduchar                         modunsigned
+     00005966  __moduint                          modunsigned
+     0000596B  __mulint                           mul
+     0000596D  __mul16                            mul
+     00005982  __modschar                         modsigned
+     0000598A  __modsint                          modsigned
+     00005990  __divschar                         divsigned
+     00005992  __div8                             divsigned
+     00005996  __div_signexte                     divsigned
+     0000599A  __div16                            divsigned
+     0000599A  __divsint                          divsigned
+     000059C0  __get_remainder                    divsigned
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER1                            00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER2                            00000000    00000009 =           9. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER3                            00000000    0000004D =          77. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        000059CA    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             000059CC    00000025 =          37. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            000059F1    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    00000550 =        1360. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C000  _vblank_counter                    platform
+     0000C002  _pause_request                     platform
+     0000C003  _sat_y                             platform
+     0000C043  _sat_xp                            platform
+     0000C0C3  _sat_count                         platform
+     0000C0C7  _sfx_mask                          platform
+     0000C0C8  _music_is_pal                      platform
+     0000C0C9  _m_hold                            platform
+     0000C0CA  _m_wait                            platform
+     0000C0CB  _m_bank                            platform
+     0000C0CC  _m_left                            platform
+     0000C0CD  _m_rbank                           platform
+     0000C0CE  _m_prev                            platform
+     0000C0CF  _m_restore                         platform
+     0000C0D0  _m_div                             platform
+     0000C0D1  _m_lbank                           platform
+     0000C0D2  _m_ptr                             platform
+     0000C0D4  _m_rptr                            platform
+     0000C0D6  _m_laddr                           platform
+     0000C0D8  _sh_regs                           platform
+     0000C0E8  _actors                            game
+     0000C268  _shots                             game
+     0000C330  _game_mode                         game
+     0000C331  _world                             game
+     0000C332  _sector                            game
+     0000C333  _arena_mask                        game
+     0000C334  _selected                          game
+     0000C335  _scene_bank                        game
+     0000C336  _health                            game
+     0000C337  _shield                            game
+     0000C338  _lives                             game
+     0000C339  _gun                               game
+     0000C33A  _bombs                             game
+     0000C33B  _weapon                            game
+     0000C33C  _difficulty                        game
+     0000C33D  _practice                          game
+     0000C33E  _boss_hp                           game
+     0000C33F  _boss_max                          game
+     0000C340  _boss_stage                        game
+     0000C341  _boss_x                            game
+     0000C342  _boss_y                            game
+     0000C343  _boss_flash                        game
+     0000C344  _boss_parts                        game
+     0000C348  _rock_count                        game
+     0000C349  _enemy_count                       game
+     0000C34A  _token_kind                        game
+     0000C34B  _token_clock                       game
+     0000C34C  _stage_time                        game
+     0000C34E  _stage_ticks                       game
+     0000C350  _logic_frames                      game
+ASxxxx Linker V03.00/V05.40 + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    00000550 =        1360. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C352  _score                             game
+     0000C356  _high_score                        game
+     0000C35A  _player_x                          game
+     0000C35C  _player_y                          game
+     0000C35E  _player_vx                         game
+     0000C35F  _player_vy                         game
+     0000C360  _player_dir                        game
+     0000C361  _invulnerable                      game
+     0000C362  _death_time                        game
+     0000C363  _shield_active                     game
+     0000C364  _improved                          game
+     0000C365  _reload                            game
+     0000C366  _contact_wait                      game
+     0000C367  _keys                              game
+     0000C368  _pressed                           game
+     0000C369  _previous                          game
+     0000C36A  _turn_clock                        game
+     0000C36B  _pause_active                      game
+     0000C36C  _hero_frame                        game
+     0000C36D  _flame_frame                       game
+     0000C36E  _token_frame                       game
+     0000C36F  _rock_stream                       game
+     0000C370  _rock_frame                        game
+     0000C371  _hud                               game
+     0000C431  _hud_phase                         game
+     0000C432  _hud_dirty                         game
+     0000C433  _hit_colour                        game
+     0000C434  _hit_palette                       game
+     0000C435  _transfer_start                    game
+     0000C436  _transfer_end                      game
+     0000C437  _boss_part_x                       game
+     0000C43B  _boss_part_y                       game
+     0000C43F  _mission_fuel                      game
+     0000C440  _rng_state                         game
+     0000C442  _last_vblank                       game
+     0000C444  _perf                              game
+     0000C454  _done_perf                         game
+     0000C464  _col_x                             game
+     0000C484  _col_y                             game
+     0000C4A4  _col_r                             game
+     0000C4C4  _col_id                            game
+     0000C4E4  _col_count                         game
+     0000C4E5  _draw_id                           game
+     0000C505  _draw_count                        game
+     0000C506  _shot_id                           game
+     0000C51A  _shot_count                        game
+     0000C51F  _pass_digits                       game
+     0000C524  _pass_position                     game
+     0000C525  _pass_error                        game
+     0000C529  _line                              game
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZED                        0000C550    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C550  _music_enabled                     platform
+     0000C551  _music_track                       platform
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 13.
+
+Files Linked                              [ module(s) ]
+
+/home/claude/sms/Stardust_SMS/build/crt0.rel
+                                          [ crt0 ]
+/home/claude/sms/Stardust_SMS/build/vdp.rel
+                                          [ vdp ]
+/home/claude/sms/Stardust_SMS/build/music.rel
+                                          [ music ]
+/home/claude/sms/Stardust_SMS/build/platform.rel
+                                          [ platform ]
+/home/claude/sms/Stardust_SMS/build/game.rel
+                                          [ game ]
+
+
+Libraries Linked                          [ object file ]
+
+/opt/sdcc45/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ divunsigned.rel ]
+/opt/sdcc45/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ modunsigned.rel ]
+/opt/sdcc45/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ mul.rel ]
+/opt/sdcc45/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ modsigned.rel ]
+/opt/sdcc45/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ divsigned.rel ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 14.
+
+User Base Address Definitions
+
+_CODE = 0x0200
+_DATA = 0xc000
+
+

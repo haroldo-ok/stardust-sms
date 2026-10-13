@@ -1,0 +1,14 @@
+core=Genesis Plus GX video=256x192 hz=59.92 rate=44100
+pilot f=0 mode=0 world=1 hp=0 gun=0 mask=0
+pilot f=97 mode=3 world=1 hp=100 gun=3 mask=0
+pilot f=560 mode=6 world=1 hp=52 gun=3 mask=0
+pilot f=651 mode=3 world=2 hp=82 gun=3 mask=0
+pilot f=1876 mode=6 world=2 hp=0 gun=3 mask=0
+pilot f=1968 mode=3 world=3 hp=30 gun=3 mask=0
+pilot f=2451 mode=6 world=3 hp=18 gun=3 mask=0
+pilot f=2542 mode=3 world=4 hp=48 gun=3 mask=0
+pilot f=3166 mode=6 world=4 hp=36 gun=3 mask=0
+pilot f=3258 mode=3 world=5 hp=66 gun=3 mask=0
+pilot f=7898 mode=6 world=5 hp=88 gun=3 mask=0
+pilot f=7989 mode=8 world=6 hp=100 gun=3 mask=0
+ran 20000 frames, audio bytes 0

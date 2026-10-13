@@ -1,0 +1,246 @@
+{
+  "title": {
+    "bank": 2,
+    "patterns": 320,
+    "mse": 0.0030833708588033915,
+    "sprite_patterns": 128
+  },
+  "world1": {
+    "bank": 3,
+    "patterns": 320,
+    "mse": 0.002085621701553464,
+    "sprite_patterns": 128
+  },
+  "world2": {
+    "bank": 4,
+    "patterns": 320,
+    "mse": 0.001333647989667952,
+    "sprite_patterns": 128
+  },
+  "world3": {
+    "bank": 5,
+    "patterns": 320,
+    "mse": 0.0016435907455161214,
+    "sprite_patterns": 128
+  },
+  "world4": {
+    "bank": 6,
+    "patterns": 320,
+    "mse": 0.002589009702205658,
+    "sprite_patterns": 128
+  },
+  "world5": {
+    "bank": 7,
+    "patterns": 320,
+    "mse": 0.0005009998567402363,
+    "sprite_patterns": 128
+  },
+  "map": {
+    "bank": 8,
+    "patterns": 320,
+    "mse": 2.1531102902372368e-05,
+    "sprite_patterns": 128
+  },
+  "tunnel": {
+    "bank": 9,
+    "patterns": 320,
+    "mse": 0.007334400434046984,
+    "sprite_patterns": 128
+  },
+  "mission": {
+    "bank": 10,
+    "patterns": 320,
+    "mse": 0.00028006924549117684,
+    "sprite_patterns": 128
+  },
+  "end": {
+    "bank": 11,
+    "patterns": 320,
+    "mse": 0.0024285612162202597,
+    "sprite_patterns": 128
+  },
+  "boss1": {
+    "bank": 12,
+    "patterns": 320,
+    "mse": 0.002085621701553464,
+    "sprite_patterns": 128
+  },
+  "boss2": {
+    "bank": 13,
+    "patterns": 320,
+    "mse": 0.001333647989667952,
+    "sprite_patterns": 128
+  },
+  "boss3": {
+    "bank": 14,
+    "patterns": 320,
+    "mse": 0.0016435907455161214,
+    "sprite_patterns": 128
+  },
+  "boss4": {
+    "bank": 15,
+    "patterns": 320,
+    "mse": 0.002589009702205658,
+    "sprite_patterns": 128
+  },
+  "boss5": {
+    "bank": 16,
+    "patterns": 320,
+    "mse": 0.0005009998567402363,
+    "sprite_patterns": 128
+  },
+  "manual": {
+    "bank": 18,
+    "patterns": 320,
+    "mse": 1.147013608715497e-05,
+    "sprite_patterns": 128
+  },
+  "password": {
+    "bank": 19,
+    "patterns": 320,
+    "mse": 0,
+    "sprite_patterns": 128
+  },
+  "boss_layouts": {
+    "b1_housing": {
+      "pat": 38,
+      "w": 32,
+      "h": 16,
+      "frames": 1,
+      "stride": 8
+    },
+    "b1_pillar": {
+      "pat": 46,
+      "w": 8,
+      "h": 32,
+      "frames": 1,
+      "stride": 4
+    },
+    "b1_door": {
+      "pat": 50,
+      "w": 16,
+      "h": 32,
+      "frames": 1,
+      "stride": 8
+    },
+    "b1_core": {
+      "pat": 58,
+      "w": 16,
+      "h": 16,
+      "frames": 4,
+      "stride": 4
+    },
+    "b1_turret": {
+      "pat": 74,
+      "w": 16,
+      "h": 16,
+      "frames": 4,
+      "stride": 4
+    },
+    "b2_eye": {
+      "pat": 38,
+      "w": 32,
+      "h": 32,
+      "frames": 4,
+      "stride": 16
+    },
+    "b2_arm": {
+      "pat": 102,
+      "w": 16,
+      "h": 16,
+      "frames": 4,
+      "stride": 4
+    },
+    "b3_head": {
+      "pat": 38,
+      "w": 32,
+      "h": 32,
+      "frames": 2,
+      "stride": 16
+    },
+    "b3_seg": {
+      "pat": 70,
+      "w": 24,
+      "h": 24,
+      "frames": 2,
+      "stride": 12
+    },
+    "b3_tail": {
+      "pat": 94,
+      "w": 24,
+      "h": 24,
+      "frames": 2,
+      "stride": 12
+    },
+    "b4_blades": {
+      "pat": 38,
+      "w": 32,
+      "h": 32,
+      "frames": 2,
+      "stride": 16
+    },
+    "b4_plate": {
+      "pat": 70,
+      "w": 32,
+      "h": 32,
+      "frames": 1,
+      "stride": 16
+    },
+    "b4_ball": {
+      "pat": 86,
+      "w": 32,
+      "h": 32,
+      "frames": 2,
+      "stride": 16
+    },
+    "b5_egg": {
+      "pat": 38,
+      "w": 32,
+      "h": 48,
+      "frames": 2,
+      "stride": 24
+    },
+    "b5_hatch": {
+      "pat": 86,
+      "w": 16,
+      "h": 16,
+      "frames": 1,
+      "stride": 4
+    },
+    "b5_prof": {
+      "pat": 90,
+      "w": 32,
+      "h": 32,
+      "frames": 2,
+      "stride": 16
+    }
+  },
+  "animation_offsets": {
+    "player": 0,
+    "shield": 2048,
+    "flame": 2304,
+    "tokens": 2816,
+    "rocks_grey": 3968,
+    "rocks_blue": 6272,
+    "rocks_purple": 8576,
+    "rocks_gold": 10880
+  },
+  "sprite_palette": [
+    0,
+    0,
+    21,
+    42,
+    63,
+    5,
+    11,
+    31,
+    18,
+    38,
+    60,
+    36,
+    57,
+    22,
+    1,
+    29
+  ]
+}

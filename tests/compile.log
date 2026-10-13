@@ -1,0 +1,13 @@
++ sdasz80 -plosgff /home/claude/sms/Stardust_SMS/build/crt0.rel /home/claude/sms/Stardust_SMS/src/crt0.s
++ sdasz80 -plosgff /home/claude/sms/Stardust_SMS/build/vdp.rel /home/claude/sms/Stardust_SMS/src/vdp.s
++ sdasz80 -plosgff /home/claude/sms/Stardust_SMS/build/music.rel /home/claude/sms/Stardust_SMS/src/music.s
++ sdcc -mz80 --std-c99 --sdcccall 1 --opt-code-speed --max-allocs-per-node 10000 -I/home/claude/sms/Stardust_SMS/src -c /home/claude/sms/Stardust_SMS/src/platform.c -o /home/claude/sms/Stardust_SMS/build/platform.rel
++ sdcc -mz80 --std-c99 --sdcccall 1 --opt-code-speed --max-allocs-per-node 10000 -I/home/claude/sms/Stardust_SMS/src -c /home/claude/sms/Stardust_SMS/src/game.c -o /home/claude/sms/Stardust_SMS/build/game.rel
+/home/claude/sms/Stardust_SMS/src/game.c:164: warning 110: conditional flow changed by optimizer: so said EVELYN the modified DOG
+/home/claude/sms/Stardust_SMS/src/game.c:226: warning 110: conditional flow changed by optimizer: so said EVELYN the modified DOG
+/home/claude/sms/Stardust_SMS/src/game.c:227: warning 110: conditional flow changed by optimizer: so said EVELYN the modified DOG
++ sdcc -mz80 --std-c99 --sdcccall 1 --opt-code-speed --max-allocs-per-node 10000 -I/home/claude/sms/Stardust_SMS/src --no-std-crt0 --code-loc 0x0200 --data-loc 0xc000 /home/claude/sms/Stardust_SMS/build/crt0.rel /home/claude/sms/Stardust_SMS/build/vdp.rel /home/claude/sms/Stardust_SMS/build/music.rel /home/claude/sms/Stardust_SMS/build/platform.rel /home/claude/sms/Stardust_SMS/build/game.rel -o /home/claude/sms/Stardust_SMS/build/game.ihx
+ROM: /home/claude/sms/Stardust_SMS/Stardust_SMS.sms
+Fixed code + constants: 23026 / 32752 bytes
+Cart: 524288 bytes
+Checksum: $d7ee
